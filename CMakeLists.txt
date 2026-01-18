@@ -11,7 +11,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Collect source files
-file(GLOB_RECURSE SOURCES "${PROJECT_SOURCE_DIR}/src/*.cpp")
+file(GLOB_RECURSE SOURCES "${PROJECT_SOURCE_DIR}/*.cc")
 
 # Create executable
 if(SOURCES)
